@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>buymanager</class>
+ <widget class="QWidget" name="buymanager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>453</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="chart">
+      <attribute name="title">
+       <string>Tab 1</string>
+      </attribute>
+      <widget class="QTableView" name="tableView">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>381</width>
+         <height>261</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>395</x>
+         <y>10</y>
+         <width>371</width>
+         <height>401</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="buymanagerimage.qrc">:/new/prefix1/CaptureBUY.bmp</pixmap>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="chart_2">
+      <attribute name="title">
+       <string>Tab 2</string>
+      </attribute>
+      <widget class="QToolBox" name="page">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>391</width>
+         <height>251</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="cost">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>391</width>
+          <height>197</height>
+         </rect>
+        </property>
+        <attribute name="label">
+         <string>Page 1</string>
+        </attribute>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>40</y>
+           <width>41</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>بابت</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>120</y>
+           <width>31</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>قیمت</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>160</y>
+           <width>31</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>تخفیفl</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>50</y>
+           <width>61</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>تاریخ قرارداد</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>55</x>
+           <y>120</y>
+           <width>81</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>تاریخ پرداخت</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>10</y>
+           <width>75</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>تایید</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>142</x>
+           <y>10</y>
+           <width>191</width>
+           <height>91</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>120</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_3">
+         <property name="geometry">
+          <rect>
+           <x>142</x>
+           <y>160</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="Dateofcontract">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>80</y>
+           <width>111</width>
+           <height>31</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="Dateofpyment">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>150</y>
+           <width>113</width>
+           <height>31</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="incom">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>381</width>
+          <height>197</height>
+         </rect>
+        </property>
+        <attribute name="label">
+         <string>Page 2</string>
+        </attribute>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>40</y>
+           <width>46</width>
+           <height>13</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>بابت</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>110</y>
+           <width>46</width>
+           <height>13</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>قیمت</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>150</y>
+           <width>46</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>تخفیف</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>100</y>
+           <width>61</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>تاریخ دریافت</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>30</y>
+           <width>61</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>تاریخ قرارداد</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>75</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>تایید</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_4">
+         <property name="geometry">
+          <rect>
+           <x>152</x>
+           <y>19</y>
+           <width>181</width>
+           <height>81</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_5">
+         <property name="geometry">
+          <rect>
+           <x>152</x>
+           <y>110</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_6">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>149</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="Dateofcontract_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>59</y>
+           <width>113</width>
+           <height>31</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="Dateofpyment_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>129</y>
+           <width>113</width>
+           <height>31</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>0</y>
+         <width>341</width>
+         <height>401</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="buymanagerimage.qrc">:/new/prefix1/CaptureBUY.bmp</pixmap>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="buymanagerimage.qrc"/>
+ </resources>
+ <connections/>
+</ui>
